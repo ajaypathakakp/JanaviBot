@@ -29,24 +29,24 @@ def ban(bot: Bot, update: Update, args: List[str]) -> str:
     user_id, reason = extract_user_and_text(message, args)
 
     if not user_id:
-        message.reply_text("നിങ്ങൾ ഒരുഭോക്താവിനെ സൂചിപ്പിക്കുന്നതായി തോന്നുന്നില്ല...")
+        message.reply_text("You dont seem to be a referring client...")
         return ""
 
     try:
         member = chat.get_member(user_id)
     except BadRequest as excp:
         if excp.message == "User not found":
-            message.reply_text("ഇങ്ങനെ ഒരാളെ എനിക്ക് കണ്ടെത്താൻ സാധിച്ചില്ല...")
+            message.reply_text("I couldnot Find anyone lke this...")
             return ""
         else:
             raise
 
     if is_user_ban_protected(chat, user_id, member):
-        message.reply_text("എനിക്ക് Adminsനെ ബാൻ ചെയ്യാൻ സാധിക്കില്ല സുഹൃത്തേ...")
+        message.reply_text("I cant ban Admins...")
         return ""
 
     if user_id == bot.id:
-        message.reply_text("ഞാൻ എന്നെത്തന്നെ ബാൻ ചെയ്യാനോ നടക്കുന്ന കാര്യം വല്ലതും പറ... ")
+        message.reply_text("I'll ban myself, Now Happy?... ")
         return ""
 
     log = "<b>{}:</b>" \
@@ -71,13 +71,13 @@ def ban(bot: Bot, update: Update, args: List[str]) -> str:
     except BadRequest as excp:
         if excp.message == "Reply message not found":
             # Do not reply
-            message.reply_text('ബാൻ ചെയ്തിട്ടുണ്ട്...!', quote=False)
+            message.reply_text('Message not foundട്...!', quote=False)
             return log
         else:
             LOGGER.warning(update)
             LOGGER.exception("ERROR banning user %s in chat %s (%s) due to %s", user_id, chat.title, chat.id,
                              excp.message)
-            message.reply_text("എനിക്കയാളെ ബാൻ ചെയ്യാൻ സാധിക്കില്ല..")
+            message.reply_text("I can't ban him..")
 
     return ""
 
