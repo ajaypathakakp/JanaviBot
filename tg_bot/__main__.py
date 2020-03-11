@@ -22,7 +22,8 @@ hoi {}, my name is {}! if you have any questions about how to use me please give
 
 im a group manager bot maintained by  [this person](tg://user?id={}).
 
-My future updates will be put into This Channel - My Support Group @RedRox001
+The BOT is especially designed for D'Nation Family. You can add me to our group, to clear rippers from your group.
+Thanks to @Escrow_man and @The_Deshbhakt
 
 """
 
