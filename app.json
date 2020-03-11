@@ -21,11 +21,11 @@
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
-      "value": "683538773"
+      "value": "1080166225"
     },
     "OWNER_USERNAME": {
       "description": "Your username",
-      "value": "ViruZs"
+      "value": "beinganinfluencer"
     },
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode messages",
@@ -33,7 +33,7 @@
     },
     "URL": {
       "description": "The Heroku App URL similar to https://<appname>.herokuapp.com/",
-      "value": ""
+      "value": "https://missjanavibot.herokuapp.com/"
     },
     "MESSAGE_DUMP": {
       "description": "optional: a chat where your replied saved messages are stored, to stop people deleting their old",
@@ -53,7 +53,7 @@
     },
     "DONATION_LINK": {
       "description": "Optional: link where you would like to receive donations.",
-      "value": "https://www.paypal.me/Your_id_here"
+      "value": "https://t.me/beinganinfluencer"
     },
     "PORT": {
       "description": "Port to use for your webhooks",
