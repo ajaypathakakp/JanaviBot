@@ -2,7 +2,7 @@ future
 emoji
 requests
 sqlalchemy
-python-telegram-bot
+python-telegram-bot==11.1.0
 psycopg2-binary
 feedparser
 pyowm
@@ -12,7 +12,7 @@ demjson
 PyLyrics
 wget
 gTTS
-telegram
+#telegram
 zalgo_text
 pynewtonmath
 bs4
