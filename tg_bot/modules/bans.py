@@ -56,7 +56,7 @@ def ban(bot: Bot, update: Update, args: List[str]) -> str:
           "\n<b>• ID:</b> <code>{}</code>".format(html.escape(chat.title), mention_html(user.id, user.first_name), 
                                                   mention_html(member.user.id, member.user.first_name), user_id)
 
-    reply = "{} നെ ബാൻ ചെയ്തിട്ടുണ്ട്.." .format(mention_html(member.user.id, member.user.first_name))
+    reply = "{} Ban on You.." .format(mention_html(member.user.id, member.user.first_name))
     if reason:
         log += "\n<b>• Reason:</b> {}".format(reason)
         reply += "\n<b>Reason:</b> <i>{}</i>".format(reason)
