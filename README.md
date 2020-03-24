@@ -1,4 +1,3 @@
-#####The name is now changed to theDominationBot #####
 
 Janavi Bot
 
