@@ -18,11 +18,13 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-hoi {}, my name is {}! if you have any questions about how to use me please give me /help... 
+Hey {}, my name is {}! My name is Janavi. If you have any questions on how to use me please input /help
 
-im a group manager bot maintained by  [this person](tg://user?id={}).
+This bot is managed by Ajay Pathak and for any queries feel free to DM @JanaviiSupportBot
 
-The BOT is especially designed for D'Nation Family. You can add me to our group, to clear rippers from your group.
+Using this bot, you can keep your group clean from Rippers. This bot is especially designed to keep Rippers away. Ensure to give admin to this bot.
+
+To report rippers, DM @JanaviAlertbot
 
 
 """
