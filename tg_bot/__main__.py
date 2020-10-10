@@ -18,7 +18,7 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-Hey {}, my name is {}! My name is Rucchi aka Bittu. I manage various Cybersecurity groups all over the Telegram.
+Hey {}, my name is {}! aka Bittu. I manage various Cybersecurity groups all over the Telegram.
 If you have any questions on how to use me please input /help
 
 This bot is managed by Ajay Pathak and Riddhi Tiwari.
