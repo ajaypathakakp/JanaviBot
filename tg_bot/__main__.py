@@ -18,13 +18,11 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-Hey {}, my name is {}! My name is Janavi. If you have any questions on how to use me please input /help
+Hey {}, my name is {}! My name is Rucchi aka Bittu. I manage various Cybersecurity groups all over the Telegram.
+If you have any questions on how to use me please input /help
 
-This bot is managed by Ajay Pathak and for any queries feel free to DM @JanaviiSupportBot
+This bot is managed by Ajay Pathak and Riddhi Tiwari.
 
-Using this bot, you can keep your group clean from Rippers. This bot is especially designed to keep Rippers away. Ensure to give admin to this bot.
-
-To report rippers, DM @JanaviAlertbot
 
 
 """
@@ -46,10 +44,10 @@ And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll of the following commands  / or ! can  be used...\n")
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-It took lots of work for [my creator](t.me/mrajaypathak) to get me to where I am now, and every donation helps \
-motivate him to make me even better. All the donation money will go to a better VPS to host me, and/or beer \
-(see his bio!). He's just a poor student, so every little helps!
-To donate please test my creator @mrajaypathak"""
+It took lots of work for [my creator](t.me/ajaykpathak) to get me to where I am now, and every donation helps \
+motivate him to make me even better. All the donation money will go to a better VPS to host me, For the LGBTQIA+ Community and Donations to the needy.
+Every little helps!
+To donate please message my creator @ajaykpathak"""
 
 IMPORTED = {}
 MIGRATEABLE = []
